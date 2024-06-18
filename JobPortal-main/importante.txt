@@ -1,0 +1,7 @@
+
+ao entrar na pasta src e executar os comandos abaixo
+Criar a tabela no banco de dados e alterar os dados de conexao do banco no arquivo DbContext.java
+
+javac -cp ".:lib/*" src/*.java -d bin
+
+java -cp "bin;lib/*" PortalDeVagas.App
